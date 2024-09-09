@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+// Define common variables for dimensions
+$full-width: 100%;
+$full-height: 100vh;
+
+// Mixin for full-screen sections
+@mixin fullscreen {
+  width: $full-width;
+  height: $full-height;
+  background-size: cover;
+  background-position: center;
+}
+
+html, body, #root, .App {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Prevents scrolling */
+}
+
+.image-map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #000; /* Optional: Adjust background color */
+}
+
+.main-entrance {
+@include fullscreen;
+  background-image: url('./assets/map.png'); // Default background image
+}
+.temp-map {
+@include fullscreen;
+  background-image: url('./assets/temp-map.png'); // Different background for temp page
+}
+.hq-area{
+@include fullscreen;
+background-image: url('./assets/HQ.png');
+}
+.back {
+  @include fullscreen;
+  background-image: url('./assets/map-back.png');
+}
+
+.youth-hub{ 
+  @include fullscreen;
+
+}
+
+.main-entrance{
+
+  .title{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: 500;
+  }
+  .sub-title{
+    font-size: 3.75rem;
+    color: #049ED1;
+    font-weight: 500;
+  }
+
+}
+
+.navigation{
+  margin-top: 95rem;
+  .navlinks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+    a{
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 2.5rem;
+      font-weight: 500;
+    }
+  }
+}
+.w-72{
+  width: 72% !important;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.6s ease-in-out forwards; // Longer duration and smoother easing
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
