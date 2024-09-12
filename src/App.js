@@ -46,7 +46,7 @@ function App() {
           <Route exact path='the-arena-back' element={<TheArenaBack />} />
           <Route exact path='the-arena' element={<TheArena />} />
           <Route exact path='youth-hub' element={<YouthHub />} />
-          <Route exact path='yout-hub-back' element={<YouthHubBack />} />
+          <Route exact path='youth-hub-back' element={<YouthHubBack />} />
         </Routes>
       </Router>
     </div>

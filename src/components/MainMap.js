@@ -68,7 +68,7 @@ const MainMap = () => {
                         YOUTH HUB
                       </a>
                     </div>
-                    <div className='d-flex justify-content-between w-72'>
+                    <div className='d-flex justify-content-between w-66'>
                       <a
                         onClick={() => handleNavigation('/hq')}
                         href='/#/temp-map'

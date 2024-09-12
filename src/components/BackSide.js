@@ -69,7 +69,7 @@ const BackSide = () => {
                       YOUTH HUB
                     </a>
                     </div>
-    <div className='d-flex justify-content-between w-72'>
+    <div className='d-flex justify-content-between w-66'>
                     <a
                       onClick={() => handleNavigation('/hqback')}
                       href='/#/temp-map-back'

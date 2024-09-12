@@ -39,18 +39,78 @@ html, body, #root, .App {
 @include fullscreen;
   background-image: url('./assets/temp-map.png'); // Different background for temp page
 }
+.distribution{
+@include fullscreen;
+  background-image: url('./assets/Distribution.png'); // Different background for temp page
+}
+
+.distribution-back{
+@include fullscreen;
+  background-image: url('./assets/Distribution-back.png'); // Different background for temp page
+}
+.energy-services{
+  @include fullscreen;
+    background-image: url('./assets/Energy-Services.png'); // Different background for temp page
+}
+.energy-services-back{
+  @include fullscreen;
+    background-image: url('./assets/Energy-services-back.png'); // Different background for temp page
+}
+.generation{
+  @include fullscreen;
+    background-image: url('./assets/Generation.png'); // Different background for temp page
+}
+.generation-back{
+  @include fullscreen;
+    background-image: url('./assets/Generation-back.png'); // Different background for temp page
+}
+.the-arena{
+  @include fullscreen;
+    background-image: url('./assets/The-Arena.png'); // Different background for temp page
+}
+.the-arena-back{
+  @include fullscreen;
+    background-image: url('./assets/The-Arena-back.png'); // Different background for temp page
+}
+.transmission{
+  @include fullscreen;
+    background-image: url('./assets/Transmission.png'); // Different background for temp page
+}
+.transmission-back{
+  @include fullscreen;
+    background-image: url('./assets/Transmission-back.png'); // Different background for temp page
+}
+.water-solutions{
+  @include fullscreen;
+    background-image: url('./assets/Water-Solutions.png'); // Different background for temp page
+}
+.water-solutions-back{
+  @include fullscreen;
+    background-image: url('./assets/Water-Solutions-back.png'); // Different background for temp page
+}
+.temp-map-back{
+  @include fullscreen;
+    background-image: url('./assets/temp-map-back.png'); // Different background for temp page
+}
+.youth-hub{
+  @include fullscreen;
+    background-image: url('./assets/Youth-Hub.png'); // Different background for temp page
+}
+.youth-hub-back{
+  @include fullscreen;
+    background-image: url('./assets/Youth-hub-back.png'); // Different background for temp page
+}
 .hq-area{
 @include fullscreen;
-background-image: url('./assets/HQ.png');
+background-image: url('./assets/hq-area.png');
+}
+.hq-area-back {
+  @include fullscreen;
+  background-image: url('./assets/THE-HQ-back.png');
 }
 .back {
   @include fullscreen;
   background-image: url('./assets/map-back.png');
-}
-
-.youth-hub{ 
-  @include fullscreen;
-
 }
 
 .main-entrance{
@@ -69,7 +129,7 @@ background-image: url('./assets/HQ.png');
 }
 
 .navigation{
-  margin-top: 95rem;
+  margin-top: 130rem;
   .navlinks{
     display: flex;
     flex-wrap: wrap;
@@ -82,8 +142,8 @@ background-image: url('./assets/HQ.png');
     }
   }
 }
-.w-72{
-  width: 72% !important;
+.w-66{
+  width: 66% !important;
 }
 
 .fade-in {
