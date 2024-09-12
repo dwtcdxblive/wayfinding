@@ -1,10 +1,6 @@
 
 const Generation = () => {
-    return (
-<section className="generation">
-
-</section>
-    );
+    return <section className='generation fade-in'></section>;
 }
 
 export default Generation;

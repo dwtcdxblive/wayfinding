@@ -1,9 +1,5 @@
 const Transmission = () => {
-    return (
-
-        <section className='transmission'>
-        </section>
-    );
+    return <section className='transmission fade-in'></section>;
 }
 
 export default Transmission;
